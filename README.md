@@ -17,4 +17,4 @@ Este repositorio aloja el codigo de la practica de conversion de temperatura con
 * [Web Author](http://ajyanreyu.github.io/)
 
 
-https://travis-ci.org/ajyanreyu/karma-y-travis-norberto_albano.svg?branch=master
+[![Build Status](https://travis-ci.org/ajyanreyu/karma-y-travis-norberto_albano.svg?branch=master)](https://travis-ci.org/ajyanreyu/karma-y-travis-norberto_albano)
