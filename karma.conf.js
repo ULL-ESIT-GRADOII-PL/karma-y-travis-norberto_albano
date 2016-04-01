@@ -11,7 +11,7 @@ module.exports = function(config) {
     files: [
       'assets/js/main.js',
       'assets/js/medida.js',
-      'assets/js/temperatura.js',
+      'assets/js/conversor.js',
       'conversor_test.js',
       'vendor/chai.js',
       'vendor/mocha.css',
