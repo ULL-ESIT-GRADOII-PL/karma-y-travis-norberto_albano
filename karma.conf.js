@@ -34,7 +34,6 @@ module.exports = function(config) {
     ],
 
     preprocessors: {
-      'test.html': ['html2js']
     },
 
     plugins : [
@@ -44,7 +43,6 @@ module.exports = function(config) {
       'karma-firefox-launcher',
       'karma-html2js-preprocessor',
       'karma-phantomjs-launcher',
-      'karma-safari-launcher'
     ],
 
     reporters: ['progress'],
@@ -57,7 +55,7 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['PhantomJS', 'Chrome', 'Safari'],      // Firefox fue eliminado por errores de version
+    browsers: ['Chrome'],      // Firefox fue eliminado por errores de version
 
     captureTimeout: 60000,
 

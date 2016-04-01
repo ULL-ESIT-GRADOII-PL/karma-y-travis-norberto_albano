@@ -4,6 +4,7 @@ var cleanCSS = require('gulp-clean-css');
 var htmlmin = require('gulp-htmlmin');
 var clean = require('gulp-clean');
 var karma   = require('gulp-karma');
+var del     = require('del');
 
 
 
@@ -47,6 +48,6 @@ gulp.task('minify-html', function() {
     .pipe(gulp.dest('minified'))
 });
 
-gulp.task('clean', function () {
-	return gulp.src('minified/*', {read: false})
-		.pipe(clean());
+gulp.task('clean', function(cb) {
+  del(['minified/*'], cb);
+});
