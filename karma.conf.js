@@ -20,8 +20,8 @@ module.exports = function(config) {
       'vendor/blanket.min.js',
       'vendor/mocha-blanket.js',
       'vendor/sinon-1.7.1.js',
-      'test_conversor.js',
-      'test.html',
+      'test/test_conversor.js',
+      'test/test.html',
       'xregexp.js'
 
     ],
