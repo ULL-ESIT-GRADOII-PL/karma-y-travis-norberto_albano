@@ -20,7 +20,10 @@ module.exports = function(config) {
       'vendor/blanket.min.js',
       'vendor/mocha-blanket.js',
       'vendor/sinon-1.7.1.js',
+      'test_conversor.js',
+      'test.html',
       'xregexp.js'
+
     ],
 
     client: {
@@ -55,7 +58,7 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['Chrome'],      // Firefox fue eliminado por errores de version
+    browsers: ['Chrome', 'Firefox', 'PhantomJS'],      // Firefox fue eliminado por errores de version
 
     captureTimeout: 60000,
 
