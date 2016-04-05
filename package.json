@@ -2,14 +2,25 @@
   "name": "Conversor",
   "version": "0.0.1",
   "description": "Conversor javascript de tipos",
-  "main": "conversor.js",
-  "scripts": {},
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "testf": "open ./test/test.html",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o vendor/chai.js",
+    "sinon": "curl http://sinonjs.org/releases/sinon-1.12.2.js -o vendor/sinon-1.17.3.js",
+    "karma": "node_modules/karma/bin/karma start"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/aluXXXXXXX/STW03.git"
   },
   "keywords": [
-    "conversor"
+    "conversor",
+    "mocha",
+    "chai",
+    "sinon",
+    "testing",
+    "javascript"
   ],
   "author": "",
   "license": "ISC",

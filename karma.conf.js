@@ -9,9 +9,8 @@ module.exports = function(config) {
     frameworks: ['mocha', 'chai'],
 
     files: [
-      'assets/js/main.js',
-      'assets/js/medida.js',
-      'assets/js/conversor.js',
+      'test/*',
+      'assets/js/*',
       'conversor_test.js',
       'vendor/chai.js',
       'vendor/mocha.css',
@@ -20,8 +19,6 @@ module.exports = function(config) {
       'vendor/blanket.min.js',
       'vendor/mocha-blanket.js',
       'vendor/sinon-1.7.1.js',
-      'test/test_conversor.js',
-      'test/test.html',
       'xregexp.js'
 
     ],
