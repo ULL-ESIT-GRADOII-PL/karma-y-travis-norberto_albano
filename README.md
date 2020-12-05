@@ -2,6 +2,7 @@
 
 Este repositorio aloja el codigo de la practica de conversion de temperatura con una modificacion que contemple la conversión de tipos, realizada con html, css y javascript, usando POO y haciendo uso de la herencia en javascript.
 
+[![Build Status](https://travis-ci.org/ajyanreyu/karma-y-travis-norberto_albano.svg?branch=master)](https://travis-ci.org/ajyanreyu/karma-y-travis-norberto_albano)
 
 **Repositorio GitHuB**
 
